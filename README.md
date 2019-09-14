@@ -1,11 +1,17 @@
-# (Dataset Exploration Title)
-## by (your name here)
+# English Premier League Exploration
+## by Mathias Brønd Sørensen
 
 
 ## Dataset
 
-> Provide basic information about your dataset in this section. If you selected your own dataset, make sure you note the source of your data and summarize any data wrangling steps that you performed before you started your exploration.
+The dataset is a SQLite database describing football matches, players and teams from Europe and is obtained from [Kaggle](https://www.kaggle.com/hugomathien/soccer).
 
+In order to limit the dataset and make it tidy, the following operations were performed:
+1. Joining relevant tables to denormalize data
+2. Limiting rows to only be matches in the English Premier League
+3. Limit number of features by removing excessive ones
+4. Added catagorical variable to indicate result
+5. Ordered catagorical variable season as it is ordinal
 
 ## Summary of Findings
 
