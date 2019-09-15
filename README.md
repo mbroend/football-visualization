@@ -14,10 +14,12 @@ In order to limit the dataset and make it tidy, the following operations were pe
 5. Ordered catagorical variable season as it is ordinal
 
 ## Summary of Findings
+The most common match result across all stages and seasons in the 1-1.
+All of the seasons in the available dataset seem to have the same characteristics in terms of home and away goals. The only exception seem to be the home teams in season 09/10 with a higher median of goals. There's some variaence in the stages of the season as with respect to the goals scored, with the away team seemingly having a hard time scoring in the middle of the season. 
 
-> Summarize all of your findings from your exploration here, whether you plan on bringing them into your explanatory presentation or not.
+The betting companies seem to very much agree on the odds on the likely side of the results - the higher the odds, the more variability across the different vendors.
 
 
 ## Key Insights for Presentation
 
-> Select one or two main threads from your exploration to polish up for your presentation. Note any changes in design from your exploration step here.
+The key findings were definately the homogenity across seasons in terms of goals - there doesn't seem to be much difference to the league from season to season. Plots are the same as in the exploratory part, just cleaned up a bit.
